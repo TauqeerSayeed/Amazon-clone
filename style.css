@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+
+}
+
+.navbar-logo{
+    height: 50px;
+    width: 100px;
+
+}
+
+.border{
+    border: 2px transparent white;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box 2 */
+.add-first{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    color: #ccc;
+    margin-left: 8px;
+}
+.add-2{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+.locationbar{
+    display: flex;
+    /* margin: 1px; */
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* .search-icon{
+    height: 45px;
+    width: 40px; 
+    background-color: red;
+} */
+.All{
+    background-color: #E6E6E6;
+    height: 39xpx;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    height: 37px;
+    font-size: 1rem;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+span{
+    font-size: 0.7rem;
+
+}
+
+.second-signin{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* menupanel */
+
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-evenly;
+
+}
+
+.panel-ops{
+    display: flex;
+    width: 93%;
+    font-size: 0.85rem;
+}
+.panel-ops p{
+    margin-left:  10px;
+}
+.panel-bar{
+    font-weight: 700;
+}
+
+/* herosection */
+.herosection{
+    height: 400px;
+    width: 100%;
+    background-image: url("Herosection.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    color: #0f1111;
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px ;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+.box{
+    border: 0px solid black;
+    height: 400px;
+    width: 23%;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+    
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+}
+.box-content p{
+    color: #007185;
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.panel1{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.95rem;
+    align-items: center;
+}
+
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ul a{
+   display: block;
+   color: white; 
+   text-decoration: none;
+   font-size: 0.85rem;
+   margin-top: 5px;
+}
+
+.panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerlogo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.pages{
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 5px;
+   
+}
+.pages a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    
+    
+}
+
+.panel4{
+    background-color: black;
+    height: 50px;
+    width: 100%;    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+    padding-top: 5px;
+}
+
